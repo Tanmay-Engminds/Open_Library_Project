@@ -6,3 +6,5 @@ The system is designed using object-oriented principles, where each component ha
 * Cleans and normalizes raw API data
 * Stores cleaned data in an SQL database
 * Visualizes publication trends over time
+**API Used:**
+  'https://openlibrary.org/search.json'
