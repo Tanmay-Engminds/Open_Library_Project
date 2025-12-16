@@ -10,4 +10,34 @@ The system is designed using object-oriented principles, where each component ha
 ```bash
 https://openlibrary.org/search.json
 ```
+---
+## BookFetcher
+**Responsibility:**  
+Fetching raw book data from the Open Library API.
+**Data Retrieved:**
+* Title
+* Authors
+* First publish year
+---
 
+## BookCleaner
+**Responsibility:**  
+Prepare raw data for analysis and storage.
+**Cleaning Steps:**
+* Removes books with missing titles
+* Converts author lists into readable strings
+* Converts publish year to numeric format
+* Removes incomplete records, duplicate entries
+---
+
+## BookDatabase
+**Responsibility:**  
+Store and retrieve cleaned data using SQL and storing in SQLite.
+
+---
+
+## BookVisualizer
+**Responsibility:**  
+Analyze and visualize book publication trends.
+**Visualization:**
+* Bar plot of number of fiction books by first publish year
