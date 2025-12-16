@@ -5,7 +5,7 @@ The system is designed using object-oriented principles, where each component ha
 * Fetches fiction book data from the Open Library public API
 * Cleans and normalizes raw API data
 * Stores cleaned data in an SQL database
-* Visualizes publication trends over time
+* Visualizes publication trends over time <br>
 **API Used**
 ```bash
 https://openlibrary.org/search.json
