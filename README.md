@@ -8,5 +8,6 @@ The system is designed using object-oriented principles, where each component ha
 * Visualizes publication trends over time
 <br>
 **API Used:**
-  ```bash
+```bash
 https://openlibrary.org/search.json
+```
